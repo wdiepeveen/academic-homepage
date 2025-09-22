@@ -1,0 +1,32 @@
+---
+layout: default
+title : Teaching
+navbar_title: Teaching
+body_attr: >-
+  data-spy="scroll" data-target="#navbar-uni" data-offset="100"
+---
+
+{% assign courses_by_uni = site.courses | sort: "date" | reverse | group_by_exp: "item", "item.university" %}
+
+<div class="row">
+    <div class="col-12 col-lg-10">
+        {% for uni in courses_by_uni %}
+        {% assign num_papers = uni.items | size %}
+        <h2 class="pt-4" id="uni-{{ uni.name }}">{{ uni.name }}</h2>
+        <div class="my-0 p-0 bg-white shadow-sm rounded-xl">
+            {% for item in uni.items %}
+                {% include widgets/course_item.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
+            {% endfor %}
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="col-2 d-none d-lg-block">
+        <div id="navbar-uni" class="nav nav-pills flex-column sticky-top" style="top: 80px">
+            {% for uni in courses_by_uni %}
+            <a class="nav-link d-block" href="#uni-{{ uni.name }}">{{ uni.name }}</a>
+            {% endfor %}
+        </div>
+    </div>
+
+</div>

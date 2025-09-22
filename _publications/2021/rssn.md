@@ -11,4 +11,5 @@ authors:
 - Jan Lellmann
 links:
   Paper: https://epubs.siam.org/doi/abs/10.1137/21M1398513
+  Code: https://manoptjl.org/stable/solvers/primal_dual_semismooth_Newton/
 ---

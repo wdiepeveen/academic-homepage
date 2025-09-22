@@ -10,4 +10,5 @@ authors:
 - Willem Diepeveen
 links:
   Paper: https://arxiv.org/abs/2403.06612
+  Code: https://github.com/wdiepeveen/Pulling-back-symmetric-Riemannian-geometry-for-data-analysis
 ---

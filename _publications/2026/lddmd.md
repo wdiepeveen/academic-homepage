@@ -13,4 +13,5 @@ authors:
 - Andrea L. Bertozzi
 links:
   Paper: https://www.sciencedirect.com/science/article/pii/S0893965925002514
+  Code: https://github.com/wdiepeveen/Latent-Diffeomorphic-Dynamic-Mode-Decomposition
 ---

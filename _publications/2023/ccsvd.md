@@ -12,4 +12,5 @@ authors:
 - Deanna Needell
 links:
   Paper: https://arxiv.org/abs/2306.00507
+  Code: https://github.com/wdiepeveen/manifold-valued-tensors
 ---

@@ -15,4 +15,5 @@ authors:
 - Carola-Bibiane Schonlieb
 links:
   Paper: https://www.pnas.org/doi/10.1073/pnas.2318951121
+  Code: https://github.com/wdiepeveen/Riemannian-geometry-for-efficient-analysis-of-protein-dynamics-data
 ---
