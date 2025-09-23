@@ -7,7 +7,7 @@ pub_date: "2025"
 abstract: >-
   Proposes iso-Riemannian geometry and frameworks for manifold learning for regular and expressive geometric representations.
 authors:
-- Willem Diepeveen*
+- Willem Diepeveen
 - Deanna Needell
 links:
   Paper: https://arxiv.org/abs/2505.08087
